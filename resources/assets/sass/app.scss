@@ -1,0 +1,26 @@
+
+// // Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// // Variables
+@import "variables";
+
+// // Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+// OverlayScrollbars
+@import '~overlayscrollbars/css/OverlayScrollbars.css';
+// iCheck
+@import '~icheck-bootstrap/icheck-bootstrap.css';
+// AdminLTE
+@import '../../../vendor/jeroennoten/laravel-adminlte/resources/assets/dist/css/AdminLTE.min.css';
+// Bootstrap
+// Already imported by AdminLTE
+//@import '~bootstrap/scss/bootstrap';
+.main-sidebar {
+    position: fixed;
+}
